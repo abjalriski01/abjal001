@@ -5,8 +5,8 @@ all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
 PROJECT TITLE:ARRAY
-PURPOSE OF PROJECT:
-VERSION or DATE:0.02
+PURPOSE OF PROJECT:membuat aplikasi menggunakan array
+VERSION or DATE:0.02 01/06/2021
 HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+AUTHORS:abjal001
+USER INSTRUCTIONS:abjal riski
