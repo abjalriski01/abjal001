@@ -60,6 +60,21 @@ public class Mahasiswa
     public void setnamaMhs(String nama){
         this.nama = nama;
     }
+      public void setalamatMhs(String alamat){
+        this.alamat = alamat;
+    }
+    
+    public void setkelasMhs(String kelas){
+        this.kelas = kelas;
+    }
+    
+    public void setnimMhs(int nim){
+        this.nim = nim;
+    }
+    
+    public void setumurMhs(int umur){
+        this.umur = umur;
+    }
    
     
   
