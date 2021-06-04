@@ -123,28 +123,7 @@ public class Main
         System.out.println("\nMenghapus Data Mahasiswa");
         System.out.print("Masukkan NIM yang ingin Dihapus: ");
         cariNim = input.nextInt();
-        for (Mahasiswa mhs : arrm)
-        {
-            if(mhs.getnimMhs() == cariNim){
-                arrm.indexOf(mhs);
-                arrm.remove(arrm.indexOf(mhs));
-            }
-        }
-        
-        //Menampilkan Hasil Setelah Di Hapus
-        System.out.println("\n");
-        System.out.println("Data Setelah di Dihapus");
-        for (Mahasiswa mhs : arrm)
-        {
-            System.out.println("Nim : " +mhs.getnimMhs());
-            System.out.println("Nama : " +mhs.getnamaMhs());
-            System.out.println("Alamat : "+mhs.getalamatMhs());
-            System.out.println("Kelas : "+mhs.getkelasMhs());
-            System.out.println("Umur : "+mhs.getumurMhs());
-            System.out.println("-----------------------------");
-        }
-        
-        
+       
         
        
                 
