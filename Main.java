@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class Main
 {
-    public static void main(String args[]){
+   public static void main(String args[]){
         
         //ArrayList<Integer> arri = new ArrayList<Integer>();
         //ArrayList<String> arrs = new ArrayList<String>();
@@ -77,7 +77,7 @@ public class Main
                 System.out.println("Umur : "+mhs.getumurMhs());
             }
         }
-    
+      
         //Mengupdate data Mahasiswa
         System.out.println("\nUpdate Data Mahasiswa");
         System.out.print("Nim Yang Di Update: ");
@@ -88,29 +88,25 @@ public class Main
             {
                 System.out.print("Nama : ");
                 nama = input.next();
-                
+                mhs.setnamaMhs(nama);
                 
                 
                 System.out.print("Alamat : ");
                 alamat = input.next();
-               
+                mhs.setalamatMhs(alamat);
                 
                 System.out.print("Kelas : ");
                 kelas = input.next();
-               
+                mhs.setkelasMhs(kelas);
                 
                 System.out.print("Umur : ");
                 umur = input.nextInt();
-                
-                arrm.add(new Mahasiswa(nim,umur,nama,alamat,kelas));
-                System.out.println("\n");
-            
-               
+                mhs.setumurMhs(umur);
             }
             
         }
         
-        //Menampilkan Hasil Update
+        //Menampilkan Hasil Setelah DiUpdate
         System.out.println("\n");
         System.out.println("Data Setelah di Update");
         for (Mahasiswa mhs : arrm)
@@ -125,7 +121,7 @@ public class Main
         
         //Menghapus data Mahasiswa
         System.out.println("\nMenghapus Data Mahasiswa");
-        System.out.print("NIM Yang Ingin DiHapus: ");
+        System.out.print("Masukkan NIM yang ingin Dihapus: ");
         cariNim = input.nextInt();
         for (Mahasiswa mhs : arrm)
         {
@@ -135,7 +131,7 @@ public class Main
             }
         }
         
-        //Menampilkan Hasil Update
+        //Menampilkan Hasil Setelah Di Hapus
         System.out.println("\n");
         System.out.println("Data Setelah di Dihapus");
         for (Mahasiswa mhs : arrm)
@@ -148,8 +144,20 @@ public class Main
             System.out.println("-----------------------------");
         }
         
+        
+        
+       
+                
+              
+        
+
+        
        
     }
-    
-}
-   
+                    
+            
+
+               
+      
+
+    } 

@@ -7,12 +7,10 @@
  */
 public class Mahasiswa
 {
-      // instance variables - replace the example below with your own
-    private int nim;
-    private int umur;
-    private String nama; 
-    private String alamat;
-    private String kelas;
+   // instance variables - replace the example below with your own
+    private int nim, umur;
+    private String nama, alamat, kelas;
+    
     
     /**
      * Constructor for objects of class Mahasiswa
@@ -25,6 +23,9 @@ public class Mahasiswa
         this.alamat = alamat;
         this.kelas = kelas;
     }
+    
+     public boolean allowDuplicates;
+  //  public ArrayListCustom<E>;
 
     /**
      * An example of a method - replace this comment with your own
@@ -60,7 +61,8 @@ public class Mahasiswa
     public void setnamaMhs(String nama){
         this.nama = nama;
     }
-      public void setalamatMhs(String alamat){
+    
+    public void setalamatMhs(String alamat){
         this.alamat = alamat;
     }
     
@@ -75,6 +77,10 @@ public class Mahasiswa
     public void setumurMhs(int umur){
         this.umur = umur;
     }
+
+   
+    
+  
    
     
   
