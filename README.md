@@ -16,6 +16,4 @@
 
 
 # KALKULATOR SEDERHANA
-
-[![N|Solid](https://github.com/abjalriski01/abjal001/blob/master/Kalkulator Sederhana1.mp4)](https://github.com/abjalriski01/abjal001/blob/master/Kalkulator Sederhana1.mp4)
-
+[![N|Solid](https://github.com/abjalriski01/abjal001/blob/master/gambar10.png)](https://github.com/abjalriski01/abjal001/blob/master/gambar10.png)
