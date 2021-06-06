@@ -17,3 +17,5 @@
 
 # KALKULATOR SEDERHANA
 [![N|Solid](https://github.com/abjalriski01/abjal001/blob/master/gambar10.png)](https://github.com/abjalriski01/abjal001/blob/master/gambar10.png)
+https://github.com/abjalriski01/abjal001/blob/master/Kalkulator%20Sederhana%202021-06-06%2016-54-17.mp4
+[![N|Solid](https://github.com/abjalriski01/abjal001/blob/master/Kalkulator%20Sederhana%202021-06-06%2016-54-17.mp4)](https://github.com/abjalriski01/abjal001/blob/master/Kalkulator%20Sederhana%202021-06-06%2016-54-17.mp4)
