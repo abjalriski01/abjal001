@@ -18,7 +18,7 @@ public class Main
         ArrayList<Mahasiswa> arrm = new ArrayList<Mahasiswa>();
     
         
-       
+        /*
         //ArrayListCostum 
         arrc.add(2);
         arrc.add(1);
@@ -38,6 +38,7 @@ public class Main
         arrs.add("Budi");
         arrs.add("Franco");
         
+        */
         
       
         
@@ -96,6 +97,48 @@ public class Main
         //Menampilkan Hasil Input Dengan di Sorting
         Collections.sort(arrm,new MahasiswaComparator());
         System.out.println("Menampilkan Data Mahasiswa Sesuai urutan Integer(Umur)");
+        for (Mahasiswa mhs: arrm)
+        {
+            System.out.println("Nim : "+mhs.getnimMhs());
+            System.out.println("Nama : "+mhs.getnamaMhs());
+            System.out.println("Alamat : "+mhs.getalamatMhs());
+            System.out.println("Kelas : "+mhs.getkelasMhs());
+            System.out.println("Umur : "+mhs.getumurMhs());
+            System.out.println("---------------------");
+        }
+        
+         
+        //Menampilkan Hasil Input Dengan di Sorting
+        Collections.sort(arrm,new MahasiswaComparatorString());
+        System.out.println("Menampilkan Data Mahasiswa Sesuai urutan String(Nama)");
+        for (Mahasiswa mhs: arrm)
+        {
+            System.out.println("Nim : "+mhs.getnimMhs());
+            System.out.println("Nama : "+mhs.getnamaMhs());
+            System.out.println("Alamat : "+mhs.getalamatMhs());
+            System.out.println("Kelas : "+mhs.getkelasMhs());
+            System.out.println("Umur : "+mhs.getumurMhs());
+            System.out.println("---------------------");
+        }
+        
+         
+        //Menampilkan Hasil Input Dengan di Sorting
+        Collections.sort(arrm,new MahasiswaComparatorString());
+        System.out.println("Menampilkan Data Mahasiswa Sesuai urutan String(Alamat)");
+        for (Mahasiswa mhs: arrm)
+        {
+            System.out.println("Nim : "+mhs.getnimMhs());
+            System.out.println("Nama : "+mhs.getnamaMhs());
+            System.out.println("Alamat : "+mhs.getalamatMhs());
+            System.out.println("Kelas : "+mhs.getkelasMhs());
+            System.out.println("Umur : "+mhs.getumurMhs());
+            System.out.println("---------------------");
+        }
+        
+     
+        //Menampilkan Hasil Input Dengan di Sorting
+        Collections.sort(arrm,new MahasiswaComparatorString());
+        System.out.println("Menampilkan Data Mahasiswa Sesuai urutan Integer(Nim)");
         for (Mahasiswa mhs: arrm)
         {
             System.out.println("Nim : "+mhs.getnimMhs());
@@ -195,7 +238,7 @@ public class Main
         }
         */
          
-       /* 
+       
         System.out.println("Menampilkan Data Mahasiswa");
         for (Mahasiswa mhs: arrm)
         {
@@ -207,14 +250,14 @@ public class Main
             }
             System.out.println(mhs.getnimMhs()+" - "+ mhs.getnamaMhs());
         }    
-        */
+        
           
        
         
        
-       //-----------------------------
+      
         
-       
+        /*
         System.out.println("");
         Collections.sort(arrc);
         System.out.println("Menampilkan Nilai Array List Custom");
@@ -251,7 +294,7 @@ public class Main
             System.out.println(valx);
         }
             
-    
+        */
    
     }
     
